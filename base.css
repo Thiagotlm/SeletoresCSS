@@ -1,0 +1,73 @@
+
+
+/*-Seletor de tag-*/
+
+h1{
+    background-color: darkblue;
+    color: lightgreen;
+}
+div{
+    background-color: lightblue;
+    color: darkblue;
+}
+li{
+    background-color: lightgray;
+}
+
+/*-Seletor por ID (coloca-se # para buscar o id)-*/
+
+#welcome{
+    background-color: aquamarine;
+    color: red;
+}
+
+#select-text{
+    background-color: aqua;
+    color: rgb(153, 75, 51);
+}
+
+/*-Seletor por classe (coloca-se . para buscar a class)-*/
+
+.lista{
+    color: red;
+}
+
+.listaMaiusculo{
+    color: green;
+    text-transform: uppercase;
+}
+
+.link{
+    background-color: white;
+}
+
+/*-Seletor universsal usa-se (*) serve para estilizar toda a estrutura da pág como um todo-*/
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*-Seletor de atributo [nome do atributo]seguido de {}-*/
+
+[title*="NetFlix"]{
+    color: red;
+    background-color: white;
+}
+[title*="Prime"]{
+    color: darkblue;
+    background-color: white;
+}
+[title*="Spotify"]{
+    color: green;
+    background-color: white;
+}
+[title*="DisneyPlus"]{
+    color: pink;
+    background-color: white;
+}
+
+
+
+
+
